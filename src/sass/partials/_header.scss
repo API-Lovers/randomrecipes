@@ -31,12 +31,15 @@ header {
 .ingredients-input {
   margin-left: 10px;
   height: 20px;
-  font-size: 100%;
+  font-size: 80%;
   border-radius: 5px;
+  text-align: center;
+  outline: none;
 }
 
 .search-submit {
   border-radius: 15px;
   margin: 2px 5px;
   background: $background;
+  outline: none;
 }
