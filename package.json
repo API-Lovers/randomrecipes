@@ -1,0 +1,31 @@
+{
+  "name": "randomrecipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/API-Lovers/randomrecipes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/API-Lovers/randomrecipes/issues"
+  },
+  "homepage": "https://github.com/API-Lovers/randomrecipes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
