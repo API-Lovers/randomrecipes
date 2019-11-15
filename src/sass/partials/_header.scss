@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  background: $headerbackground;
+  height: 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.project-title {
+  margin: 0;
+  font-family: "Cedarville Cursive", cursive;
+  color: $logocolor;
+}
+
+.logo-img {
+  max-width: 40px;
+  max-height: auto;
+  transform: rotate(20deg);
+}
+
+.ingredients-input {
+  margin-left: 10px;
+  height: 20px;
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+.search-submit {
+  border-radius: 15px;
+  margin: 2px 5px;
+  background: $background;
+}
