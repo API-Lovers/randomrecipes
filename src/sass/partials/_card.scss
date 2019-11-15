@@ -1,0 +1,45 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.card {
+  display: flex;
+  height: 100px;
+  width: 80%;
+
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: $background;
+  &__image {
+    flex-grow: 1;
+  }
+  &__thumbnail {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px 0px 0px 10px;
+  }
+  &__content {
+    flex-grow: 6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    &__text {
+    }
+    &__badge {
+      display: inline;
+      border-radius: 15px;
+      background-color: $logocolor;
+      padding: 1px 3px;
+      font-size: 10px;
+    }
+    &__detail {
+    }
+  }
+}
