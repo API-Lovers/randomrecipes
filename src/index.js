@@ -45,10 +45,14 @@ submitButton.addEventListener("click", () => {
         badgeContent.innerHTML = badge;
         badgeContainer.appendChild(badgeContent);
       });
+      const anchor = document.createElement("a");
+      anchor.href = recipe.href;
+      cardContent.appendChild(anchor);
+
       const detailButton = document.createElement("button");
       detailButton.classList.add("card__detail");
       detailButton.innerHTML = "see more";
-      cardContent.appendChild(detailButton);
+      anchor.appendChild(detailButton);
     });
   });
 });
@@ -96,9 +100,13 @@ responding(searchIngredient).then(returned => {
       badgeContent.innerHTML = badge;
       badgeContainer.appendChild(badgeContent);
     });
+    const anchor = document.createElement("a");
+    anchor.href = recipe.href;
+    cardContent.appendChild(anchor);
+
     const detailButton = document.createElement("button");
     detailButton.classList.add("card__detail");
     detailButton.innerHTML = "see more";
-    cardContent.appendChild(detailButton);
+    anchor.appendChild(detailButton);
   });
 });
